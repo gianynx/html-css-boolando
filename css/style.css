@@ -44,7 +44,9 @@ header {
     background-color: var(--color_header);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding-top: 1rem;
-  
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .ul_header {
@@ -88,6 +90,18 @@ ul {
     max-width: calc(75rem / 3) - 3rem;
     height: 31rem;
     margin: 1rem 1.5rem 0 1.5rem;
+}
+
+.hover_img {
+    display: none;
+}
+
+.change:hover .img {
+    display: none;
+}
+
+.change:hover .hover_img {
+    display: block;
 }
 
 .m_t {
