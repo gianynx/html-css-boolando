@@ -20,13 +20,6 @@
     margin: 0 auto;
 }
 
-.flex {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .grid {
     border: 2px solid black;
 }
@@ -42,4 +35,30 @@ header {
 
 ul {
     list-style: none;
+}
+
+.flex_header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*CSS main*/
+
+.flex_main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.img {
+    width: calc(75rem / 3) - 2rem;
+    height: 31rem;
+    margin: 1rem;
+}
+
+.m_t {
+    margin-top: 2rem;
 }
