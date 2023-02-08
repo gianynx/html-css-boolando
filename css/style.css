@@ -104,8 +104,51 @@ ul {
     display: block;
 }
 
+.change {
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    left: 1.5rem;
+    top: 28rem;
+    width: 2.7rem;
+    height: 1.2rem;
+    font-size: 10px;
+    text-align: center;
+    line-height: 1.2rem;
+    color: var(--color_main);
+    background-color: var(--color_discount);
+}
+
+.sust {
+    position: absolute;
+    left: 4.3rem;
+    top: 28rem;
+    width: 4.8rem;
+    height: 1.2rem;
+    font-size: 11px;
+    text-align: center;
+    line-height: 1.2rem;
+    color: var(--color_main);
+    background-color: var(--color_sost);
+}
+
+.sust_2 {
+    position: absolute;
+    left: 1.5rem;
+    top: 28rem;
+    width: 4.8rem;
+    height: 1.2rem;
+    font-size: 11px;
+    text-align: center;
+    line-height: 1.2rem;
+    color: var(--color_main);
+    background-color: var(--color_sost);
+}
+
 .m_t {
-    margin-top: 2rem;
+    margin-top: rem;
 }
 
 .m_l {
@@ -145,8 +188,6 @@ ul {
     justify-content: space-between;
     align-items: center;
 }
-
-
 
 footer {
     height: 6rem;
