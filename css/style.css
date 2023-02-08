@@ -63,6 +63,11 @@ ul {
 
 .a_item {
     text-decoration: none;
+    color: var(--color_main);
+}
+
+.text_a:hover {
+    text-decoration: underline;
 }
 
 .logo {
