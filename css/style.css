@@ -27,6 +27,11 @@
 
 /*CSS header*/
 
+.container_header {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
 .flex_header {
     display: flex;
     flex-flow: row nowrap;
