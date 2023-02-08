@@ -19,3 +19,14 @@
     max-width: 75rem;
     margin: 0 auto;
 }
+
+/*CSS header*/
+
+header {
+    height: 2rem;
+    background-color: var(--color_header);
+}
+
+ul {
+    list-style: none;
+}
