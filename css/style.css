@@ -27,16 +27,16 @@
 
 /*CSS header*/
 
-.container_header {
-    max-width: 70rem;
-    margin: 0 auto;
-}
-
 .flex_header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+}
+
+.container_header {
+    max-width: 70rem;
+    margin: 0 auto;
 }
 
 header {
@@ -124,6 +124,15 @@ ul {
 }
 
 /*CSS footer*/
+
+.flex_footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 
 footer {
     height: 6rem;
