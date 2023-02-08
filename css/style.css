@@ -1,3 +1,5 @@
+/*CSS general*/
+
 * {
     margin: 0;
     padding: 0;
@@ -11,4 +13,9 @@
     --color_discount: #ff0000;
     --color_sost: #008000;
     --color_footer: #1a1a1a;
+}
+
+.container {
+    max-width: 75rem;
+    margin: 0 auto;
 }
