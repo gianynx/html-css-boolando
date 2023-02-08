@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 :root {
@@ -26,6 +27,13 @@
 
 /*CSS header*/
 
+.flex_header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header {
     height: 4rem;
     background-color: var(--color_header);
@@ -33,15 +41,32 @@ header {
   
 }
 
+.ul_header {
+    width: 10.5rem;
+}
+
 ul {
     list-style: none;
 }
 
-.flex_header {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
+.item {
+    color: var(--color_main);
+}
+
+.a_item {
+    text-decoration: none;
+}
+
+.logo {
+    max-width: 10rem;
+}
+
+.icons {
+    width: 4rem;
+}
+
+.icon {
+    color: var(--color_main);
 }
 
 /*CSS main*/
@@ -54,9 +79,9 @@ ul {
 }
 
 .img {
-    width: calc(75rem / 3) - 2rem;
+    max-width: calc(75rem / 3) - 3rem;
     height: 31rem;
-    margin: 1rem 1rem 0;
+    margin: 1rem 1.5rem 0 1.5rem;
 }
 
 .m_t {
@@ -64,7 +89,7 @@ ul {
 }
 
 .m_l {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
 }
 
 /*CSS footer*/
