@@ -66,3 +66,14 @@ ul {
 .m_l {
     margin-left: 1rem;
 }
+
+/*CSS footer*/
+
+footer {
+    height: 6rem;
+    background-color: var(--color_footer);
+}
+
+.m_t {
+    margin-top: 2rem;
+}
