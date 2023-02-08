@@ -147,6 +147,26 @@ ul {
     background-color: var(--color_sost);
 }
 
+.heart {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    color: var(--dark_color);
+    font-size: 35px;
+    width: 2.5rem;
+    background-color: var(--color_main);
+    text-align: center;
+}
+
+.heart:hover {
+    display: block;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    background-color: var(--color_main);
+    color: var(--color_discount);
+}
+
 .m_t {
     margin-top: rem;
 }
