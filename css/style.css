@@ -38,6 +38,7 @@ header {
     height: 4rem;
     background-color: var(--color_header);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 1rem;
   
 }
 
@@ -58,7 +59,7 @@ ul {
 }
 
 .logo {
-    max-width: 10rem;
+    max-width: 8rem;
 }
 
 .icons {
