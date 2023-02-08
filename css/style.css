@@ -113,6 +113,11 @@ ul {
     text-decoration: line-through;
 }
 
+.dec_disc_red {
+    font-size: 12px;
+    color: var(--color_discount);
+}
+
 /*CSS footer*/
 
 footer {
