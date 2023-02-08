@@ -56,9 +56,13 @@ ul {
 .img {
     width: calc(75rem / 3) - 2rem;
     height: 31rem;
-    margin: 1rem;
+    margin: 1rem 1rem 0;
 }
 
 .m_t {
     margin-top: 2rem;
+}
+
+.m_l {
+    margin-left: 1rem;
 }
