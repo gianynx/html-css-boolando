@@ -108,6 +108,7 @@ ul {
 
 .change:hover .hover_img {
     display: block;
+    cursor: pointer;
 }
 
 .change {
