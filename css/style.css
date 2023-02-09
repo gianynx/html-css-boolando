@@ -46,7 +46,6 @@ header {
     padding-top: 1rem;
     position: fixed;
     top: 0;
-    left: 0;
     z-index: 1000;
     width: 100%;
 }
@@ -175,7 +174,7 @@ ul {
 }
 
 .m_t {
-    margin-top: rem;
+    margin-top: 5rem;
 }
 
 .m_l {
